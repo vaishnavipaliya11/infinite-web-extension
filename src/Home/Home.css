@@ -1,84 +1,88 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap%27'); */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css%22");
 
-@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
 
-:root{
-    --text-color:#e4e4e7;
-}
-
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Secular One', sans-serif;
-    overflow-y: hidden;
-}
-.main{
-    height: 100%;
-}
-.main-title{
-    margin: 10% auto;
-    color: red;
-}
-.quote{
-    margin: 8rem;
-    color: var(--text-color);
-}
-.topnav{
-    margin: -0.1rem 0.5rem;
-    
-}
-.footer{
-    margin: 0;
+:root {
+  --text-color: #e4e4e7;
 }
 
-.weather{
-    display: flex;
-    flex-direction: column;
-    height: 5rem;
-   padding: 0;
-    margin-top: -1.5rem;
-    margin-bottom: -10rem;
-    
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Secular One", sans-serif;
+  overflow-y: hidden;
+  text-shadow: 2px 2px 2px #33160e;
 }
-.display-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.main {
+  height: 100%;
 }
-
-.bg-img-container{
-    margin: 0;
-padding-bottom: 5rem;
+.main-title {
+  margin: 10% auto;
+}
+.quote {
+  margin: 8rem;
+  color: var(--text-color);
 }
 
-.text-color{
-    color: var(--text-color);
+.topnav {
+  margin: -0.1rem 0.5rem;
 }
-.question-container{
-    color: brown;
-}
-
-.user-input{
-    background-color: transparent;
-    border:none;
-    border-bottom: 2px solid white;
-    color: white;
-    font-size: 1.5em;
-    font-weight: 500;
-    text-align: center;
+.footer {
+  margin: 0;
 }
 
-.user-input:focus{
-    outline: none;
+.weather {
+  display: flex;
+  flex-direction: column;
+  height: 5rem;
+  padding: 0;
+  margin-top: -1.5rem;
+  margin-bottom: -10rem;
+}
+.display-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.btn-submit{
-    background: transparent;
-    border-radius: 1.5rem;
-    font-size: 1.2rem;
-    font-weight: 700;
-    padding: 0.5rem;
-    color: white;
-    border: 3px solid white;
+.bg-img-container {
+  margin: 0;
+  padding-bottom: 5rem;
+}
+
+.text-color {
+  color: var(--text-color);
+}
+.question-container {
+  color: brown;
+}
+
+.user-input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.user-input:focus {
+  outline: none;
+}
+
+.btn-submit {
+  background: transparent;
+  border-radius: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  color: white;
+  border: 3px solid white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-submit:hover {
+  cursor: pointer;
 }
