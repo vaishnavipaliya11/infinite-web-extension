@@ -1,15 +1,15 @@
 const QuoteData =[
     {
         "quote":" The purpose of our lives is to be happy. ",
-        "img":"https://images.unsplash.com/photo-1552872673-9b7b99711ebb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8MTkyMCUyMHglMjAxMDgwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        "img":"https://wallpapercave.com/dwp1x/CFx7ETT.jpg"
     },
     {
         "quote":"Never let the fear of striking out keep you from playing the game.",
-        "img":"https://images.unsplash.com/photo-1635239239608-40c8dd5b895e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+        "img":"https://wallpapercave.com/w/qfGHP3W"
     },
     {
         "quote":"Turn your wounds into wisdom.",
-        "img":"https://images.unsplash.com/photo-1635239239608-40c8dd5b895e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+        "img":"https://wallpapercave.com/dwp1x/7WO86Pc.jpg"
     },
     {
         "quote":"I like criticism. It makes you strong.",
