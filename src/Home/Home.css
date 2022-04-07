@@ -58,3 +58,27 @@ padding-bottom: 5rem;
 .question-container{
     color: brown;
 }
+
+.user-input{
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.user-input:focus{
+    outline: none;
+}
+
+.btn-submit{
+    background: transparent;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    color: white;
+    border: 3px solid white;
+}

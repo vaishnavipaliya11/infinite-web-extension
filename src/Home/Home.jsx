@@ -76,25 +76,25 @@ const Home = () => {
                   <p>
                     {ques} {userName}
                   </p>
-                  <input
+                  <input className="user-input"
                     style={nameStyle}
                     onChange={(event) => {
                       setName(event.target.value);
                     }}
                   />
-                  <button style={nameStyle} onClick={handelBtn}>
-                    check
+                  <button className="btn-submit" style={nameStyle} onClick={handelBtn}>
+                    submit
                   </button>
 
                   <div style={userGoalStyle}>
-                    <input
+                    <input className="user-input"
                       style={goalStyle}
                       onChange={(event) => {
                         setGoal(event.target.value);
                       }}
                     />
 
-                    <button style={goalStyle} onClick={handelGoal}>
+                    <button className="btn-submit" style={goalStyle} onClick={handelGoal}>
                       my goal
                     </button>
                   </div>
